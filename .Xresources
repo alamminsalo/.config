@@ -1,15 +1,12 @@
-URxvt.termName: xterm-256color
-!urxvt*foreground: white
-!urxvt*background: black
+URxvt.termName: rxvt-256color
 urxvt*scrollBar:false
-urxvt*transparent:true
+urxvt*transparent:false
 urxvt*shading: 40
 urxvt*internalBorder: 8
 
-!Noto sans
-!URxvt.font: xft:Source Code Pro:size=10
-!URxvt.boldFont: xft:Source Code Pro:size=10
-!URxvt.letterSpacing: -1
+!SourceCodePro
+!URxvt.font: xft:Source Code Pro:medium:size=10
+!URxvt.boldFont: xft:Source Code Pro:semibold:size=10
 
 !Monaco
 !URxvt.font: xft:Monaco:size=9
@@ -19,60 +16,82 @@ urxvt*internalBorder: 8
 URxvt.font: xft:Hermit:medium:size=10
 URxvt.boldFont: xft:Hermit:medium:size=10
 
+!DroidSansMono
+!URxvt.font: xft:Droid Sans Mono:medium:size=10
+!URxvt.boldFont: xft:Droid Sans Mono:medium:size=10
+
+!Inconsolata
+!URxvt.font: xft:Inconsolata:medium:size=10
+!URxvt.boldFont: xft:Inconsolata:medium:size=10
+
 !Terminus
-!urxvt*font:	xft:Terminus:medium:size=8
-!urxvt*boldFont:	xft:Terminus:medium:size=8
+!URxvt.font:	xft:Terminus:medium:size=8
+!URxvt.boldFont:	xft:Terminus:medium:size=8
 
 Xft.lcdfilter: lcddefault
 Xft.antialias: 1
-Xft.hinting: 1
-Xft.hintStyle: hintslight
+Xft.hinting: 0
+Xft.hintStyle: hintnone
 
-! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-! title      Nord XResources                                    +
-! project    nord-xresources                                    +
-! version    0.1.0                                              +
-! repository https://github.com/arcticicestudio/nord-xresources +
-! author     Arctic Ice Studio                                  +
-! email      development@arcticicestudio.com                    +
-! copyright  Copyright (C) 2016                                 +
-! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
+#include "/home/antti/git/iTerm2-Color-Schemes/xrdb/Blazer.xrdb"
 
-*.foreground:   nord4
-*.background:   nord0
-*.cursorColor:  nord4
-*fading: 35
-*fadeColor: nord3
+Rxvt*color0:       Ansi_0_Color
+Rxvt*color1:       Ansi_1_Color
+Rxvt*color2:       Ansi_2_Color
+Rxvt*color3:       Ansi_3_Color
+Rxvt*color4:       Ansi_4_Color
+Rxvt*color5:       Ansi_5_Color
+Rxvt*color6:       Ansi_6_Color
+Rxvt*color7:       Ansi_7_Color
+Rxvt*color8:       Ansi_8_Color
+Rxvt*color9:       Ansi_9_Color
+Rxvt*color10:      Ansi_10_Color
+Rxvt*color11:      Ansi_11_Color
+Rxvt*color12:      Ansi_12_Color
+Rxvt*color13:      Ansi_13_Color
+Rxvt*color14:      Ansi_14_Color
+Rxvt*color15:      Ansi_15_Color
+Rxvt*colorBD:      Bold_Color
+Rxvt*colorIT:      Italic_Color
+Rxvt*colorUL:      Underline_Color
+Rxvt*foreground:   Foreground_Color
+Rxvt*background:   Background_Color
+Rxvt*cursorColor:  Cursor_Color
 
-*.color0: nord1
-*.color1: nord11
-*.color2: nord14
-*.color3: nord13
-*.color4: nord9
-*.color5: nord15
-*.color6: nord8
-*.color7: nord5
-*.color8: nord3
-*.color9: nord11
-*.color10: nord14
-*.color11: nord13
-*.color12: nord9
-*.color13: nord15
-*.color14: nord7
-*.color15: nord6
+XTerm*color0:      Ansi_0_Color
+XTerm*color1:      Ansi_1_Color
+XTerm*color2:      Ansi_2_Color
+XTerm*color3:      Ansi_3_Color
+XTerm*color4:      Ansi_4_Color
+XTerm*color5:      Ansi_5_Color
+XTerm*color6:      Ansi_6_Color
+XTerm*color7:      Ansi_7_Color
+XTerm*color8:      Ansi_8_Color
+XTerm*color9:      Ansi_9_Color
+XTerm*color10:     Ansi_10_Color
+XTerm*color11:     Ansi_11_Color
+XTerm*color12:     Ansi_12_Color
+XTerm*color13:     Ansi_13_Color
+XTerm*color14:     Ansi_14_Color
+XTerm*color15:     Ansi_15_Color
+XTerm*colorBD:     Bold_Color
+XTerm*colorIT:     Italic_Color
+XTerm*colorUL:     Underline_Color
+XTerm*foreground:  Foreground_Color
+XTerm*background:  Background_Color
+XTerm*cursorColor: Cursor_Color
+
+! rofi
+rofi.opacity: 70
+rofi.width: 1028
+rofi.lines: 10
+rofi.columns: 1
+rofi.fg: #E5DBCF
+rofi.bg: #0F3B5F
+rofi.hlfg: #0F3B5F
+rofi.hlbg: #CC9752
+rofi.bc: #CC9752
+rofi.bw: 2
+rofi.padding: 16
+rofi.disable-history: false
+rofi.font: Hermit 12
